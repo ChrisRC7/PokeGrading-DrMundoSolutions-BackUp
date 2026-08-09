@@ -1,0 +1,4 @@
+from pokegrading.infrastructure.matching.easyocr_card_matching_service import EasyOCRCardMatchingService
+from pokegrading.infrastructure.matching.stub_card_matching_service import StubCardMatchingService
+
+__all__ = ["EasyOCRCardMatchingService", "StubCardMatchingService"]
